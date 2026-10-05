@@ -1,0 +1,21 @@
+{
+  "name": "watchtower",
+  "version": "2.0.0",
+  "description": "Real-time market intelligence dashboard for crypto, forex & stocks",
+  "main": "scripts/data-fetcher.js",
+  "scripts": {
+    "fetch:data": "node scripts/data-fetcher.js",
+    "fetch:watch": "nodemon scripts/data-fetcher.js",
+    "start": "npm run fetch:data"
+  },
+  "keywords": ["crypto", "forex", "stocks", "market", "dashboard"],
+  "author": "Njatsa119",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
