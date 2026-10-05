@@ -10,26 +10,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="phone-shell">
+    <div class="phone">
       <div class="status-bar">
         <div class="status-left">
           <span>4G</span>
-          <span class="bars">▤</span>
+          <span>▤</span>
+          <span>◔</span>
         </div>
+
         <div class="status-right">
           <span>◔</span>
           <span>◍</span>
-          <span class="battery"><i></i></span>
+          <span class="battery"></span>
         </div>
       </div>
 
       <main class="app">
         <header class="topbar">
           <div class="profile-dot"></div>
+
           <div class="segmented">
             <button class="segment active">Exchange</button>
             <button class="segment">Wallet</button>
           </div>
+
           <div class="top-icons">
             <span>◌</span>
             <span>◍</span>
@@ -41,9 +45,11 @@
             <span class="muted">Est. Total Value(USD)</span>
             <button class="funds-btn">Add Funds</button>
           </div>
+
           <div class="portfolio-amount">
-            <span class="currency">$</span><span id="totalValue">0.00</span>
+            <span>$</span><span id="totalValue">0.00</span>
           </div>
+
           <div class="portfolio-pnl">
             <span>Today's PNL</span>
             <span class="pnl-text" id="pnlValue">+$0.00</span>
@@ -57,15 +63,15 @@
           </div>
         </section>
 
-        <section class="promo-banner">
+        <div class="promo-banner">
           <div class="promo-left">
             <div class="promo-crown">♛</div>
             <span>Share $4M worth of Rewards</span>
           </div>
           <button class="promo-btn">Join</button>
-        </section>
+        </div>
 
-        <nav class="market-tabs" aria-label="Market categories">
+        <nav class="market-tabs" aria-label="markets">
           <button class="market-tab active">Hot</button>
           <button class="market-tab">TradFi</button>
           <button class="market-tab">Favorites</button>
@@ -83,7 +89,7 @@
         <div id="watchlist" class="watchlist"></div>
       </main>
 
-      <nav class="bottom-nav" aria-label="Main navigation">
+      <nav class="bottom-nav">
         <button class="nav-item active"><span class="icon">⌂</span><span>Home</span></button>
         <button class="nav-item"><span class="icon">▣</span><span>Markets</span></button>
         <button class="nav-item"><span class="icon">⇄</span><span>Trade</span></button>
