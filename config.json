@@ -1,0 +1,30 @@
+{
+  "assets": {
+    "crypto": [
+      {"sym": "BTC", "name": "Bitcoin", "source": "binance"},
+      {"sym": "ETH", "name": "Ethereum", "source": "binance"},
+      {"sym": "XRP", "name": "Ripple", "source": "binance"},
+      {"sym": "SOL", "name": "Solana", "source": "binance"},
+      {"sym": "ADA", "name": "Cardano", "source": "binance"},
+      {"sym": "DOGE", "name": "Dogecoin", "source": "binance"},
+      {"sym": "AVAX", "name": "Avalanche", "source": "binance"},
+      {"sym": "MATIC", "name": "Polygon", "source": "binance"}
+    ],
+    "forex": [
+      {"sym": "EURUSD", "name": "Euro/USD", "source": "forex"},
+      {"sym": "GBPUSD", "name": "GBP/USD", "source": "forex"},
+      {"sym": "JPYUSD", "name": "JPY/USD", "source": "forex"},
+      {"sym": "AUDUSD", "name": "AUD/USD", "source": "forex"}
+    ],
+    "stocks": [
+      {"sym": "AAPL", "name": "Apple", "source": "stocks"},
+      {"sym": "TSLA", "name": "Tesla", "source": "stocks"},
+      {"sym": "MSFT", "name": "Microsoft", "source": "stocks"},
+      {"sym": "GOOGL", "name": "Google", "source": "stocks"}
+    ]
+  },
+  "updateInterval": 300,
+  "candleTimeframes": [1, 4, 24],
+  "rsiPeriod": 14,
+  "smaPeriods": [20, 50]
+}
